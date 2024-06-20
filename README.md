@@ -1,12 +1,14 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Telegram Tic-Tac-Toe Bot Web App
 
-# Math magicians
-
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related
+>Welcome to the Telegram "Tic-Tac-Toe" Bot Web App repository! This project provides a web application that integrates with a Telegram bot, allowing users to play Tic-Tac-Toe directly through Telegram.
 
 ## Built With
 
 -React Js
+
+- Telegram WebApp API
+  
+- Telegram Bot API
 
 ## Getting Started
 
@@ -15,11 +17,10 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 You need to have a git installed
-You need to have a basic knowledge about HTML and CSS
 
 ### Setup
 
-#### clone this project (using git clone https://github.com/bizip/math_magicians.git) to your local computer and use telminal to navigate into the parent directory of this project.
+#### clone this project (using git clone <https://github.com/bizip/web_app_telegram_bot.git>) to your local computer and use telminal to navigate into the parent directory of this project
 
 ### Install
 
