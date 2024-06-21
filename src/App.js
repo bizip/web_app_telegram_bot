@@ -1,10 +1,19 @@
+/* eslint-disable arrow-spacing */
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { WebAppProvider, useWebApp } from '@vkruglikov/react-telegram-web-app';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+  const WebApp = useWebApp();
+
+  useEffect(()=>{
+    WebApp.ready();
+  }, [WebApp]);
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <WebAppProvider options={{ smoothButtonsTransition: true }}>
+      <h1>Hello world</h1>
+    </WebAppProvider>
   );
 }
 
