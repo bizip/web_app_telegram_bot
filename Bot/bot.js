@@ -3,7 +3,7 @@ import { Telegraf } from 'telegraf';
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-const webLink = '';
+const webLink = 'https://earnest-choux-4fabac.netlify.app/';
 
 bot.start((ctx) => ctx.reply('Welcome to Tic-Tac-Toe game', {
   reply_markup: {
