@@ -1,7 +1,7 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { Telegraf } from 'telegraf';
+/* eslint-disable import/no-extraneous-dependencies */
+const { Telegraf } = require('telegraf');
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf('');
 
 const webLink = 'https://earnest-choux-4fabac.netlify.app/';
 

@@ -3,6 +3,7 @@
 import { WebAppProvider, useWebApp } from '@vkruglikov/react-telegram-web-app';
 import './App.css';
 import { useEffect } from 'react';
+import Board from './component/Board';
 
 function App() {
   const WebApp = useWebApp();
@@ -12,7 +13,12 @@ function App() {
   }, [WebApp]);
   return (
     <WebAppProvider options={{ smoothButtonsTransition: true }}>
-      <h1>Hello world</h1>
+      <div className="game_container">
+        <div className="game-board">
+          <h3 className="game-board-title">Classic Tic-Tac-Toe Battle</h3>
+          <Board />
+        </div>
+      </div>
     </WebAppProvider>
   );
 }
