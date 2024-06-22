@@ -2,6 +2,10 @@
 
 >Welcome to the Telegram "Tic-Tac-Toe" Bot Web App repository! This project provides a web application that integrates with a Telegram bot, allowing users to play Tic-Tac-Toe directly through Telegram.
 
+## Live Telegram Bot Version
+
+Check out the live version [here](https://t.me/PascalTicTacToeBot)
+
 ## Built With
 
 -React Js
